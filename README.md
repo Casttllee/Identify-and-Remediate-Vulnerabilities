@@ -2,7 +2,7 @@
 
 ## Objective
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+Utilize Metasploitable2 and OpenVAS to identify and remediate vulnerabilities in a simulated network environment. This involves scanning for vulnerabilities, analyzing the results, and applying appropriate remediation techniques to secure the system. The goal is to enhance skills in vulnerability assessment, exploit identification, and system hardening.
 
 ### Skills Learned
 
