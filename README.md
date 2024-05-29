@@ -21,3 +21,5 @@ Utilize Metasploitable2 and OpenVAS to identify and remediate vulnerabilities in
 ## Steps
 
 *Ref 1*
+![kali-linux-2024 1-vmware-amd64-2024-05-28-22-41-40](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/a602ca14-c4f3-4792-ba10-4cad95092c33)
+ I started this project by downloading and installing Metasploitable2 and kali linux for VM workstation. The next step was to make sure the repositories and up to date. I did this by using the "sudo apt-get update && sudo apt-get upgrade -y".
