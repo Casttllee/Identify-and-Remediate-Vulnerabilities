@@ -26,8 +26,10 @@ Utilize Metasploitable2 and OpenVAS to identify and remediate vulnerabilities in
 
 *Ref 2*
 ![kali-linux-2024 1-vmware-amd64-2024-05-28-23-08-46](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/fed8a46d-8bb7-4430-8122-998661fa7685)
- Next,
+ Next, I began to install OpenVAS by typing "sudo apt install gvm".
 
 *Ref 3*
 ![kali-linux-2024 1-vmware-amd64-2024-05-28-23-09-44](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/461b6c45-2b85-4dd0-9a6c-4208c8aef0d6)
- Afterward,
+ Afterward, I typed "sudo gvm-setup", which starte the installation process.
+
+*Ref 4*
