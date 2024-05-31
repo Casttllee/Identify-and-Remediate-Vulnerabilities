@@ -34,8 +34,58 @@ Utilize Metasploitable2 and OpenVAS to identify and remediate vulnerabilities in
 
 *Ref 4*
 ![kali-linux-2024 1-vmware-amd64-2024-05-29-20-42-25](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/61e82b65-9667-47f5-91df-a08eefb32cf2)
- I then 
+ I then ran the command "gvm-check-setup" to make sure everything is configured correctly.The output stated that the installation is ok.
 
 *Ref 5*
+![kali-linux-2024 1-vmware-amd64-2024-05-29-21-00-26](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/8a585243-9268-4b24-8bcb-269460dae587)
+ Following that, I went on firefox and entered the address "https://localhost:9392" which prompted me to login into Greenbone. 
 
+*Ref 6*
+![Metasploitable2-Linux-2024-05-29-21-08-10](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/4555aad1-141a-4d69-aa29-df7074953f12)
+ After logging onto Greenbone, I started my Metasploitable2 machine.
+
+*Ref 7*
+![Metasploitable2-Linux-2024-05-29-21-14-08](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/a01715c9-00c1-4482-ab85-4c031dd2f97b)
+ Next, I used he command "ip a" to look at the network adapter, which was set to "eth0".
+
+*Ref 8*
+![Metasploitable2-Linux-2024-05-29-21-17-49](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/3ac533e3-f372-41da-9298-c4cb7e95ebc6)
+ The next step was to set an IP address for the network adapter. I completed this by typing the command "sudo nano /etc/network/interfaces".
+
+*Ref 9*
+![Metasploitable2-Linux-2024-05-29-21-20-14](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/eff46eb2-bd81-4a8e-99b6-1850ad11d5db)
+ The last step I completed on Metasploitable2 was setting the network adapter from DHCP to static because I am manually assigning an address. I then typed the IP address and netmask and saved. *Ref 9* shows the IP is set correctly.
  
+*Ref 10*
+![kali-linux-2024 1-vmware-amd64-2024-05-29-21-30-09](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/d107d64e-483c-435f-ab59-22b3d8a1b835)
+ Going back on Linux, I viewed the network interfaces which showed eth1 having no IP address.
+
+*Ref 11*
+![kali-linux-2024 1-vmware-amd64-2024-05-29-21-31-53](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/10c619d1-c83f-450b-8884-396b627bc195)
+ I then manually assigned an IP address by going to settings to Advanced Network Configuration. Wired connection 2 showed it was the correct network adapter.
+
+*Ref 12*
+![kali-linux-2024 1-vmware-amd64-2024-05-29-21-51-03](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/0b100848-5662-4fec-9982-782da102832a)
+ Following that, I navigated to the IPv4 settings. In the settings I changed the method to manual as well as added an IP address and Netmask.
+
+*Ref 13*
+![kali-linux-2024 1-vmware-amd64-2024-05-29-21-51-39](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/84e4e175-b2b0-4680-a816-b26b6a592e6a)
+ As a result, eth1 was assigned an IP address.
+
+*Ref 14*
+![kali-linux-2024 1-vmware-amd64-2024-05-29-21-53-46](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/78da7578-b653-433f-8468-b26b56ee078f)
+ Moving forward, I used the command "ping" to ping the IP address on my Metasploitable machine. The response provided proof connectivity.
+
+ *Ref 15*
+![kali-linux-2024 1-vmware-amd64-2024-05-29-22-01-24](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/6ee98662-9925-426f-a302-ea548a06e8b7)
+ In the next phase I created a target to be scanned.
+
+ *Ref 16*
+![Screenshot (27)](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/e374eb84-1ac8-4c4f-8ffe-251cab4061a2)
+ I then created a new task for a scan by selecting my target as well as an OpenVAS Default scanner and a Full and fast Scan Cofig.
+
+ *Ref 17*
+![Screenshot (28)](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/fd7e82c1-7a2a-4ed8-8a4d-1cf99cc97a8a)
+ Lastly, I can view the given results of the scan, showing vulnerabilities and their severity.
+ 
+## Conculsion 
