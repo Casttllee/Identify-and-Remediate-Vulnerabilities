@@ -6,17 +6,18 @@ Utilize Metasploitable2 and OpenVAS to identify and remediate vulnerabilities in
 
 ### Skills Learned
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Virtualization: Setting up virtual machines using VM Workstation.
+- Network Configuration: Setting up network interfaces and assigning IP addresses.
+- Vulnerability Assessment: Analyzing scan results to identify vulnerabilities and their severity.
+- Documentation: Documenting the steps taken and results obtained during the project.
+- System Configuration: Configuring OpenVAS using setup commands.
 
 ### Tools Used
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Metasploitable2: A purposely vulnerable virtual machine used for practicing exploitation techniques.
+- OpenVAS: Open-source vulnerability scanner and manager for assessing and managing network security.
+- nano: A text editor used for editing system configuration files.
+- Ping: Network utility used to test the reachability of a host on an IP network.
 
 ## Steps
 
@@ -88,4 +89,9 @@ Utilize Metasploitable2 and OpenVAS to identify and remediate vulnerabilities in
 ![Screenshot (28)](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/fd7e82c1-7a2a-4ed8-8a4d-1cf99cc97a8a)
  Lastly, I can view the given results of the scan, showing vulnerabilities and their severity.
  
-## Conculsion 
+## Conclusion 
+In conclusion, this project demonstrated a comprehensive exploration of setting up and configuring a secure testing environment for vulnerability assessment and penetration testing purposes. Through the installation and configuration of Metasploitable2, Kali Linux, and OpenVAS within virtualized environments, fundamental skills in system administration, network configuration, and security assessment were honed. The systematic approach to updating repositories, installing software packages, and configuring network interfaces underscored the importance of meticulous attention to detail in ensuring the stability and security of the environment.
+
+By leveraging tools such as apt-get for package management, OpenVAS for vulnerability scanning, and Firefox for web interface access, this project showcased the practical application of various software tools in the cybersecurity domain. Moreover, the manual assignment of IP addresses and network troubleshooting highlighted the necessity of understanding underlying network principles for effective system configuration and management.
+
+Ultimately, this project not only provided hands-on experience in setting up a secure testing environment but also underscored the importance of continuous learning and adaptation in the ever-evolving field of cybersecurity. Through documentation and reflection on the steps taken and challenges encountered, valuable insights were gained, laying a solid foundation for future endeavors in cybersecurity and beyond.
