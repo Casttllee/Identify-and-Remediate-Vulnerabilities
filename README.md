@@ -79,7 +79,7 @@ Utilize Metasploitable2 and OpenVAS to identify and remediate vulnerabilities in
 
  *Ref 15*
 ![kali-linux-2024 1-vmware-amd64-2024-05-29-22-01-24](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/6ee98662-9925-426f-a302-ea548a06e8b7)
- In the next phase I created a target to be scanned.
+ In the next phase I created a target to be scanned by adding the IP address and port range selection.
 
  *Ref 16*
 ![Screenshot (27)](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/e374eb84-1ac8-4c4f-8ffe-251cab4061a2)
