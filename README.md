@@ -47,7 +47,7 @@ Utilize Metasploitable2 and OpenVAS to identify and remediate vulnerabilities in
 
 *Ref 7*
 ![Metasploitable2-Linux-2024-05-29-21-14-08](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/a01715c9-00c1-4482-ab85-4c031dd2f97b)
- Next, I used he command "ip a" to look at the network adapter, which was set to "eth0".
+ Next, I used the command "ip a" to look at the network adapter, which was set to "eth0".
 
 *Ref 8*
 ![Metasploitable2-Linux-2024-05-29-21-17-49](https://github.com/Casttllee/Identify-and-Remediate-Vulnerabilities/assets/137667912/3ac533e3-f372-41da-9298-c4cb7e95ebc6)
